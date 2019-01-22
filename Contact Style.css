@@ -1,0 +1,173 @@
+	*{margin: 0;}\
+	@font-face {
+		font-family: websiteBerlinFont;
+		src: url(fonts/Berlin-Sans.ttf);
+	}
+	
+body {
+	font-family: websiteBerlinFont;
+	background-image: url("img/background.jpeg");
+	width: auto;
+	height: auto;
+	background-attachment: fixed;
+}
+
+header {
+	font-family: websiteBerlinFont;
+	background-image: url("img/companylogoBG.jpg");
+	width: 650px;
+	height: 190px;
+	background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;
+	}
+h1 {
+	display: block;
+	font-family: websiteBerlinFont;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 190px;
+	color: white;
+	font-size: 68px;
+	text-shadow: 5px 1px 2px black;
+}
+h3 {
+	font-family: Arial;
+	text-align: left;
+	color: grey;
+}
+label {
+	font-family: Arial;
+	display: inline-block;
+	text-align:left;
+	width: auto;
+	height: auto;
+	padding-left: 15px;
+	padding-top: 3px;
+	font-family: arial;
+	font-size: 21px;
+	color: lightgrey;
+	float: left;
+}
+fieldset {
+	font-family: websiteBerlinFont;
+	border: none;
+	padding-left: 70px;
+	padding-right: 60px;
+}
+textarea {
+	font-family: Arial;
+	resize: none;
+	display: block;
+	text-align: left;
+	width: 500px;
+	height: auto;
+	font-size: 21px;
+	border: 1px solid darkgrey;
+	padding-left: 15px;
+}
+section {
+	border: 1px solid darkgrey;
+}
+h3 {
+	font-family: Arial;
+	color: darkgrey;
+	font-size: 22px;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	transition: color 1s;
+	transition: font-size 0.5s;
+}
+a:hover.navi {
+	color: black;
+	font-size: 24px;
+	
+}
+::placeholder {
+	color: lightgrey;
+}
+.inputKnop {
+	color: white;
+	font-family: arial;
+	font-size: 28px;
+	width: 510px;
+	background-color: #2699FB;
+	border: 1px solid blue;
+	cursor: pointer;
+}
+
+.invoerveldPositie {
+	border: none;
+	padding-left: 70px;
+}
+
+.invoerveld {
+	display: block;
+	text-align: left;
+	width: 500px;
+	height: auto;
+	font-family: arial;
+	font-size: 21px;
+	float: left;
+	padding-left: 15px;
+}
+
+.labelEnSelect {
+	display: block;
+	background-color: white;
+	height: auto;
+	width: auto;
+	border: 1px solid darkgrey;
+}
+.selectieBalk {
+	display: inline-block;
+	float: center;
+	padding-right: 50px;
+	width: auto;
+	font-family: arial;
+	font-size: 21px;
+	color: grey;
+}
+
+.navigatie {
+	background-color: grey;
+	height: auto;
+	width: 650px;
+	text-align: center;
+	color: white;
+	word-spacing: 30px;
+	font-size: 21px;
+	font-family: arial;
+	display: block;
+	cursor: pointer;
+}
+
+.sectieInvoer {
+	background-color: #F1F1F1;
+	height: auto;
+	width: 650px;
+	display: block;
+}
+
+.categorie {
+	width: 650px;
+	background-color: #2699FB;
+	font-size: 53px;
+	font-family: arial;
+	color: white;
+	display: block;
+	text-align: center;
+}
+.footer {
+	width: 650px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 26px;
+	display: block;
+}

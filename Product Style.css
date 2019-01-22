@@ -1,0 +1,84 @@
+	*{margin: 0}
+	@font-face {
+		font-family: websiteBerlinFont;
+		src: url(fonts/Berlin-Sans.ttf);
+	}
+
+img {
+	width:  210px;
+	height: 150px;
+	border: 1px solid grey;
+	cursor: pointer;
+}
+
+table {
+		background-color: white;
+		border: 1px solid grey;
+}
+
+body {
+	background-image: url("img/background.jpeg");
+	width: auto;
+	height: auto;
+	background-attachment: fixed;
+}
+
+header {
+	background-image: url("img/companylogoBG.jpg");
+	width: 650px;
+	height: 190px;
+	background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;
+	}
+h1 {
+	display: block;
+	font-family: websiteBerlinFont;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 190px;
+	color: white;
+	font-size: 68px;
+	text-shadow: 5px 1px 2px black;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	transition: color 1s;
+	transition: font-size 0.5s;
+}
+a:hover.navi {
+	color: black;
+	font-size: 24px;
+	
+}
+.navigatie {
+	background-color: grey;
+	height: auto;
+	width: 650px;
+	text-align: center;
+	color: white;
+	word-spacing: 30px;
+	font-size: 23px;
+	font-family: arial;
+	display: block;
+	cursor: pointer;
+}
+.categorie {
+	width: 650px;
+	background-color: #2699FB;
+	font-size: 35px;
+	font-family: arial;
+	color: white;
+	display: block;
+	text-align: center;
+}
+.footer {
+	width: 650px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 19px;
+	display: block;
+}
